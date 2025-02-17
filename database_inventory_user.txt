@@ -1,0 +1,56 @@
+CREATE DATABASE inventory_db;
+
+use inventory_db;
+
+/*user table for login and signup*/
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) UNIQUE NOT NULL,
+    salt VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+
+/* inventory table for managing the items*/
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+INSERT INTO users (username, password) VALUES
+('john_doe', 'password'),
+('jane_doe', 'securepassword123'),
+('alex_smith', 'alex12345'),
+('mary_jane', 'marypassword'),
+('david_brown', 'davidsecure2025'),
+('emma_wilson', 'emmasupersecure'),
+('james_walker', 'jamespass2025'),
+('susan_lee', 'susansuperpass'),
+('robert_taylor', 'robert123'),
+('olivia_anderson', 'oliviapassword'),
+('michael_johnson', 'michaelpass2025');
+
+
+INSERT INTO inventory (name, quantity, price) VALUES 
+('Laptop', 5, 50000.00),
+('Phone', 10, 30000.00),
+('Mouse', 20, 1500.00),
+('Keyboard', 15, 2500.00),
+('Monitor', 8, 12000.00);
+
+
+
+SELECT * FROM users;
+select * from inventory;
+
+DELETE FROM users WHERE username = 'admin';  -- Replace 'admin' with your test username
+
+SELECT * FROM users WHERE username = 'admin';
+INSERT INTO users (username, password)
+VALUES ('admin', '$2b$12$KJJeO.hL2GpVR8y41BwKCu.yP5fTt.F9Cww23HZH5lsJlTOz3xuAq');
+SELECT * FROM users WHERE username = 'admin';
+
+SELECT * FROM users WHERE username = 'john_doe';
+
+
