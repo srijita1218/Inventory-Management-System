@@ -56,6 +56,6 @@ price (FLOAT)
 added_by (Foreign Key referencing user_id)
 
 ## CONTACT
-I am not familiar with uploading files and creating repositories on GitHub so if there are any issues with the database please feel free to contact me. 
+I am not familiar with creating repositories on GitHub so if there are any issues with the database please feel free to contact me. 
 Email : srijita1218@gmail.com
 GitHub : https://github.com/srijita1218
