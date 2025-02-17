@@ -22,7 +22,7 @@ The Inventory Management System is a application that allows users to manage inv
 ### Steps to run the project:
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/inventory-management-system.git](https://github.com/srijita1218/Inventory-Management-System)
+   git clone [https://github.com/srijita1218/Inventory-Management-System]
 
 
 ## Usage
