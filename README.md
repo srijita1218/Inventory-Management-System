@@ -25,8 +25,8 @@ The Inventory Management System is a application that allows users to manage inv
    git clone [https://github.com/your-username/inventory-management-system.git](https://github.com/srijita1218/Inventory-Management-System)
 
 
-### Usage
-User Registration:
+## Usage
+### User Registration:
 
 Open the application and click on the Sign Up button to create a new account.
 Enter the required details (username, password) and submit the form.
@@ -55,6 +55,7 @@ quantity (INT)
 price (FLOAT)
 added_by (Foreign Key referencing user_id)
 
-### CONTACT
+## CONTACT
+I am not familiar with uploading files and creating repositories on GitHub so if there are any issues with the database please feel free to contact me. 
 Email : srijita1218@gmail.com
 GitHub : https://github.com/srijita1218
